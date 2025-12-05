@@ -80,3 +80,16 @@ pip install mysql-connector-python
 
 
 
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f9ed7187-f440-45f6-87cd-08808fd890b7" />
+
+
+
+
+
+
