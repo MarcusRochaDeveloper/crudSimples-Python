@@ -4,7 +4,13 @@ Este projeto consiste em uma aplicação de console simples em Python que implem
 
 O projeto foi desenvolvido como **Atividade Prática** do módulo de Banco de Dados/Programação, utilizando o MariaDB (ou MySQL) como sistema gerenciador.
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f9ed7187-f440-45f6-87cd-08808fd890b7" />
+---
+
+## 📸 Demonstração
+
+A imagem abaixo ilustra a estrutura do código Python (`main.py`) e a visualização dos dados de teste na tabela `usuarios` através de um cliente de banco de dados.
+
+<img width="1920" height="1080" alt="Código Python no VS Code e Tabela Usuarios no Banco de Dados" src="https://github.com/user-attachments/assets/f9ed7187-f440-45f6-87cd-08808fd890b7" />
 
 ---
 
@@ -23,7 +29,7 @@ O projeto foi desenvolvido como **Atividade Prática** do módulo de Banco de Da
 Esta atividade foi desenvolvida e testada integralmente em um ambiente **Linux**.
 
 * **Sistema Operacional:** CachyOS (Base Arch Linux).
-* **Implicações:** A configuração do ambiente seguiu as boas práticas do Linux, sendo obrigatório o uso de **Ambiente Virtual (`venv`)** para gerenciamento de dependências, conforme as diretrizes da **PEP 668** (evitando o erro `externally-managed-environment`).
+* **Implicações:** A configuração do ambiente levou em consideração as diretrizes do Arch Linux (`PEP 668 - Externally Managed Environment`), sendo a solução preferida e mais eficiente para instalação de dependências através do gerenciador de pacotes nativo (`pacman`).
 
 ---
 
@@ -52,27 +58,11 @@ O arquivo `main.py` está configurado para tentar se conectar usando as seguinte
 
 ---
 
-## 🛠️ 4. Instalação e Execução (Passo a Passo)
+## 🛠️ 4. Instalação das Dependências e Execução
 
-### A. Criação e Ativação do Ambiente Virtual (venv)
+### A. Instalação (Solução Recomendada para Arch/CachyOS)
 
-1.  Navegue até o diretório raiz do projeto.
-2.  Crie o ambiente virtual:
-    ```bash
-    python -m venv venv
-    ```
-3.  Ative o ambiente (escolha o comando de acordo com o seu shell: Bash, Zsh, Fish):
-    ```bash
-    # Para Bash ou Zsh:
-    source venv/bin/activate
-    
-    # Para Fish:
-    # source venv/bin/activate.fish
-    ```
-
-### B. Instalação de Dependências
-
-Com o ambiente virtual ativado, instale o conector MySQL:
+Devido às políticas do Arch Linux, a maneira mais estável e segura de instalar o driver Python é usando o gerenciador de pacotes do sistema:
 
 ```bash
-pip install mysql-connector-python
+sudo pacman -S python-mysql-connector
