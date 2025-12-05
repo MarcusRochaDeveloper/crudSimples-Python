@@ -4,6 +4,8 @@ Este projeto consiste em uma aplicação de console simples em Python que implem
 
 O projeto foi desenvolvido como **Atividade Prática** do módulo de Banco de Dados/Programação, utilizando o MariaDB (ou MySQL) como sistema gerenciador.
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f9ed7187-f440-45f6-87cd-08808fd890b7" />
+
 ---
 
 ## 💻 1. Tecnologias Envolvidas
@@ -86,7 +88,7 @@ pip install mysql-connector-python
 
 
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f9ed7187-f440-45f6-87cd-08808fd890b7" />
+
 
 
 
