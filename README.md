@@ -76,22 +76,3 @@ Com o ambiente virtual ativado, instale o conector MySQL:
 
 ```bash
 pip install mysql-connector-python
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
